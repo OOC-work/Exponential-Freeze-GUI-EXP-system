@@ -37,8 +37,11 @@ Project Content:
 #### Integration using Arduino alone is suitable for modules with Wi-Fi and Blurtooth, mainly using ESP32, with Arduino.ino content.
 #### Because there is only one software program, so the integration and optimization of the program is unprecedentedly high, so the version can be used at will, the difference is in the functionality and expandability.
 
+# 項目核心:
+### 運用PID運算配合負溫度係數電阻NTC達到精準的溫度控制，與一般控制溫度是達到溫度之後關電，之後到達到一個閥值再啟動去改變溫度不同，PID溫度控制是利用比例、微分、積分和誤差來計算所需溫度，讓機器處於一直工作狀態以確保溫度變化只有0.1°C的些微變化，如果計算更精準可以金隼到只有0.01°C的誤差。例外PID只能做到控制，但它能跟其他控制運算共同混搭使用，來提升功能性及精確度。
+
 # Project Core:
-## Using PID calculation with negative temperature coefficient resistor NTC to achieve accurate temperature control, and general temperature control is to reach the temperature after the power off, and then to reach a valve value to start to change the temperature, PID temperature control is the use of proportional, differential, integral and error to calculate the required temperature, so that the machine has been working to ensure that the temperature change is only 0.1 ° C slight changes, if If the calculation is more accurate can be golden falcon to only 0.01 ° C error. PID can only be used for control, but it can be used in combination with other control operations to improve functionality and accuracy.
+### Using PID calculation with negative temperature coefficient resistor NTC to achieve accurate temperature control, and general temperature control is to reach the temperature after the power off, and then to reach a valve value to start to change the temperature, PID temperature control is the use of proportional, differential, integral and error to calculate the required temperature, so that the machine has been working to ensure that the temperature change is only 0.1 ° C slight changes, if If the calculation is more accurate can be golden falcon to only 0.01 ° C error. PID can only be used for control, but it can be used in combination with other control operations to improve functionality and accuracy.
 
 
 
