@@ -1,7 +1,6 @@
 # Exponential-Freeze-GUI-EXP-system 
 # 炒冰機使用者介面及系統設計Ice machine GUI and System design
 
-
 ## 更新維護及版本注意事項:
 #### EXP系統 將在Exponential-Freeze系列中的第二代進行改動
 #### 將從TFT螢幕轉移至手機GUI+E-paper，但不影響第一代的持續更新。
@@ -14,7 +13,6 @@
 #### The EXP-First Edition system (the first generation TFT version) is planned to end the update in terms of extensions, but will be maintained from time to time.
 #### The EXP-lite system (second generation E-paper + cell phone GUI) will be updated and maintained until the latest generation of Exponential-Freeze series ice fryer is developed, a detailed announcement will be made then.
 
-
 ## 簡介:
 #### EXP系統是基於GUI及Arduino和ESP32的一套交互控制系統
 #### EXP系統可適用於所有炒冰機，內容包刮了基礎的設置內容及進階擴充內容。
@@ -22,8 +20,6 @@
 ## Introduction:
 #### EXP system is an interactive control system based on GUI and Arduino and ESP32.
 #### EXP system can be used for all ice fryers, including basic setup and advanced expansion.
-
-
 
 # 項目內容:
 ## 第一版:Netion TFT 螢幕程式+Arduino 代碼
@@ -41,7 +37,9 @@ Project Content:
 #### Integration using Arduino alone is suitable for modules with Wi-Fi and Blurtooth, mainly using ESP32, with Arduino.ino content.
 #### Because there is only one software program, so the integration and optimization of the program is unprecedentedly high, so the version can be used at will, the difference is in the functionality and expandability.
 
-## 項目核心:
+# Project Core:
+## Using PID calculation with negative temperature coefficient resistor NTC to achieve accurate temperature control, and general temperature control is to reach the temperature after the power off, and then to reach a valve value to start to change the temperature, PID temperature control is the use of proportional, differential, integral and error to calculate the required temperature, so that the machine has been working to ensure that the temperature change is only 0.1 ° C slight changes, if If the calculation is more accurate can be golden falcon to only 0.01 ° C error. PID can only be used for control, but it can be used in combination with other control operations to improve functionality and accuracy.
+
 
 
 
