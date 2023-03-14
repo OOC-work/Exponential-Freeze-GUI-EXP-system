@@ -43,8 +43,8 @@
 # Project Core:
 ### PID calculation with negative temperature coefficient resistor NTC to achieve accurate temperature control, and general temperature control is to reach the temperature after the power off, and then to reach a valve value to start to change the temperature, PID temperature control is the use of proportional, differential, integral and error to calculate the required temperature, so that the machine has been working to ensure that the temperature change is only 0.1 ° C slight changes. If the calculation is more precise it can be accurate to only 0.01°C error. PID can only be used for control, but it can be used in combination with other control operations to improve functionality and accuracy.
 
-
-
+炒冰機連結:https://github.com/OOC-work/Exponential-Freeze-  
+Link to ice fryer:https://github.com/OOC-work/Exponential-Freeze-  
 
 
 
